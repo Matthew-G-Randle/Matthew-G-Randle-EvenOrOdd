@@ -15,7 +15,7 @@ public class Lab {
      */
     public String decide(int n){
         int result = n % 2;
-        if (result == 1){
+        if (result == 1 || result == -1){
             return "Odd";
         }
         return "Even";
